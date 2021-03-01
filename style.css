@@ -1,4 +1,4 @@
-.wrapper {
+body {
     width: 1170px;
     margin: 0 auto;
     font-family: 'Source Sans Pro', sans-serif;
@@ -81,14 +81,11 @@
 
 .text-gray {
     color: #8b8b8b;
-}
-
-.description_text {
     font-size: 18px;
-    color: #8b8b8b;
     width: 422px;
     margin-top: 39px;
 }
+
 
 .button {
     width: 129px;
