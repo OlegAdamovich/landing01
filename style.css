@@ -1,4 +1,4 @@
-.body {
+.page {
     width: 1170px;
     margin: 0 auto;
     font-family: 'Source Sans Pro', sans-serif;
@@ -67,25 +67,24 @@
     margin-top: 91px;
 }
 
-.description__content_text {
+.description__content-header {
     font-size: 31px;
     font-weight: 300;
 }
 
-.description__content_text-bold {
+.description__content-header_bold {
     font-size: 43px;
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 15px;
 }
 
-.text {
+.description__content-text {
     color: #8b8b8b;
     font-size: 18px;
     width: 422px;
     margin-top: 39px;
 }
-
 
 .button {
     width: 129px;
