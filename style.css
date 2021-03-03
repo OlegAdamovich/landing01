@@ -167,12 +167,15 @@
 
 /* team */
 .team {
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 60px;
     height: 530px;
 }
 
 .team__item {
     display: flex;
-    margin: 60px 33px 60px 30px;
+    margin: 0 33px 60px 30px;
 }
 
 .team__item-photo {
@@ -200,7 +203,7 @@
     line-height: 22px;
 }
 
-.button_team {
+.button_small {
     font-size: 12px;
     margin-top: 24px;
     width: 70px;
@@ -208,8 +211,58 @@
     padding: 14px 17px;
 }
 
-.x {
-    margin-bottom: 0;
+.team__achievements {
+    box-sizing: border-box;
+    width: 340px;
+    height: 431px;
+}
+
+.team__achievements-toggle {
+    display: flex;
+    align-items: flex-end;
+}
+
+.team__achievements-toggle-item {
+    width: 100px;
+    height: 42px;
+    border: 2px solid #ececec;
+    background: #FFF;
+    color: #787878;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 6px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.team__achievements-toggle-item_selected {
+    color: #f77462;
+    background: #003d48;
+    margin-right: 10px;
+    border-color: #003d48;
+    border-radius: 6px 6px 0 0;
+}
+
+.team__achievements-description {
+    height: 154px;
+    width: 340px;
+    background: #003d48;
+    box-sizing: border-box;
+    padding: 20px 35px 28px 34px;
+}
+
+.team__achievements-title {
+    color: #6dc5dd;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.team__achievements-text {
+    width: 271px;
+    color: #FFF;
+    font-size: 15px;
+    line-height: 24px;
 }
 
 
