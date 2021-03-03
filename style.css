@@ -59,6 +59,7 @@
     justify-content: flex-start;
     align-items: flex-end;
     margin-right: 105px;
+    margin-left: 100px;
 }
 
 .description__content {
@@ -96,4 +97,143 @@
     border: none;
     text-transform: uppercase;
     margin-top: 36px;
+}
+
+
+/* services */
+.services {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 270px;
+    background-color: #6dc5dd;
+    padding-top: 61px;
+    padding-right: 44px;
+}
+
+.services__item {
+    display: flex;
+}
+
+.services__item-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    background: #FFF;
+    margin-left: 30px;
+    margin-right: 27px;
+}
+
+.services__item-content {
+    color: #FFF;
+}
+
+.services__item-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.services__item-text {
+    width: 235px;
+    height: 62px;
+    margin-bottom: 27px;
+}
+
+.services__item-link {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.right-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-left: 11px;
+}
+
+.right-arrow__img {
+    width: 10px;
+}
+
+
+/* team */
+.team {
+    height: 530px;
+}
+
+.team__item {
+    display: flex;
+    margin: 60px 33px 60px 30px;
+}
+
+.team__item-photo {
+    margin-right: 30px;
+}
+
+.team__item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.team__item-title {
+    color: #003d48;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.team__item-text {
+    width: 519px;
+    height: 86px;
+    color: #8c9193;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.button_team {
+    font-size: 12px;
+    margin-top: 24px;
+    width: 70px;
+    height: 38px;
+    padding: 14px 17px;
+}
+
+.x {
+    margin-bottom: 0;
+}
+
+
+/* advertising */
+.advertising {
+    box-sizing: border-box;
+    height: 206px;
+    background: #f77462;
+    text-align: center;
+    padding-top: 60px;
+    color: #ffffff;
+}
+
+.advertising__title {
+    font-size: 32px;
+    line-height: 29px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.advertising__text {
+    width: 653px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 300;
 }
