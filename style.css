@@ -2,6 +2,7 @@
     width: 1170px;
     margin: 0 auto;
     font-family: 'Source Sans Pro', sans-serif;
+    border: 1px solid black;
 }
 
 .header {
@@ -29,7 +30,7 @@
     text-decoration: none;
 }
 
-.nav__item:before{
+.nav__item:before {
     content: "";
     position: absolute;
     width: 1px;
@@ -265,6 +266,23 @@
     line-height: 24px;
 }
 
+.team__achievements-list {
+    height: 240px;
+    border: 2px solid #ececec;
+    border-radius: 0 0 6px 6px;
+    box-sizing: border-box;
+    padding: 40px 20px;
+}
+
+.team__achievements-list-item {
+    border-bottom: 2px solid #ececec;
+    padding: 8px 5px;
+}
+
+.team__achievements-list-item-img {
+    width: 14px;
+}
+
 
 /* advertising */
 .advertising {
@@ -289,4 +307,197 @@
     font-size: 18px;
     line-height: 29px;
     font-weight: 300;
+}
+
+
+.portfolio {
+    min-height: 648px;
+    box-sizing: border-box;
+    padding: 60px 30px 0 30px;
+}
+
+.portfolio__title {
+    color: #003d48;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.portfolio__sub-title {
+    margin: 30px auto 40px;
+    color: #6dc5dd;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    font-weight: 300;
+    padding: 16px 0 14px 0;
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+}
+
+.portfolio__content {
+    display: flex;
+}
+
+.portfolio__items {
+}
+
+.portfolio__item {
+    display: flex;
+    margin-bottom: 56px;
+}
+
+.portfolio__date {
+    width: 70px;
+    margin-right: 29px;
+}
+
+.portfolio__date-top {
+    height: 42px;
+    border-radius: 3px;
+    background-color: #6dc5dd;
+    color: #FFF;
+    font-size: 35px;
+    line-height: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio__date-line {
+    height: 1px;
+}
+
+.portfolio__date_bottom {
+    height: 25px;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.portfolio__item-title {
+    color: #003d48;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.portfolio__item-comments {
+    color: #f77462;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 8px 0 11px;
+}
+
+.portfolio__item-text {
+    width: 395px;
+    min-height: 38px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #787878;
+}
+
+.portfolio__item-text-arrow {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+
+.portfolio__items-reviews {
+    margin-left: 50px;
+}
+
+.portfolio__item-review {
+    display: flex;
+    background: #ececec;
+    box-sizing: border-box;
+    height: 173px;
+    width: 540px;
+    padding: 34px 30px 33px;
+    margin-bottom: 40px;
+}
+
+.portfolio__item-review-text {
+    width: 333px;
+    height: 62px;
+    color: #8c9193;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.portfolio__item-reviewer-name {
+    color: #f77462;
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 700;
+    margin-top: 19px;
+}
+
+.portfolio__item-review-img-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 106px;
+    width: 106px;
+    border-radius: 50%;
+    background: #FFF;
+    margin-left: 41px;
+}
+
+
+/* footer */
+.footer {
+    min-height: 324px;
+    box-sizing: border-box;
+    background: #6dc5dd;
+    padding: 60px 30px 48px;
+    color: #FFF;
+}
+
+.footer__items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 61px;
+}
+
+.footer__item-title {
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    font-weight: 700;
+    margin-bottom: 21px;
+}
+
+.footer__item-text {
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 0.56px;
+    font-weight: 400;
+}
+
+.footer__line {
+    height: 1px;
+    background: #FFF;
+    opacity: 0.34;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 43px 0 0;
+}
+
+.footer__info-social-icons {
+    display: flex;
+}
+
+.footer__info-social-icon-item-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    height: 33px;
+    background: #FFF;
+    border-radius: 50%;
+    margin-right: 10px;
 }
