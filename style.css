@@ -343,17 +343,17 @@
 .portfolio__items {
 }
 
-.portfolio_item {
+.portfolio__item {
     display: flex;
     margin-bottom: 56px;
 }
 
-.portfolio_date {
+.portfolio__date {
     width: 70px;
     margin-right: 29px;
 }
 
-.portfolio_date-top {
+.portfolio__date-top {
     height: 42px;
     border-radius: 3px;
     background-color: #6dc5dd;
@@ -366,11 +366,11 @@
     align-items: center;
 }
 
-.portfolio_date-line {
+.portfolio__date-line {
     height: 1px;
 }
 
-.portfolio_date-bottom {
+.portfolio__date-bottom {
     height: 25px;
     border-radius: 3px;
     background-color: #6dc5dd;
@@ -381,9 +381,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.portfolio__item-description {
 }
 
 .portfolio__item-title {
@@ -454,9 +451,6 @@
     margin-left: 41px;
 }
 
-.portfolio__item-review-img {
-}
-
 
 /* footer */
 .footer {
@@ -500,11 +494,11 @@
     margin: 43px 0 0;
 }
 
-.footer-info-social-icons {
+.footer__info-social-icons {
     display: flex;
 }
 
-.footer-info-social-icon-item-bg {
+.footer__info-social-icon-item-bg {
     display: flex;
     justify-content: center;
     align-items: center;
