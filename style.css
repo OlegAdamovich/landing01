@@ -370,17 +370,10 @@
     height: 1px;
 }
 
-.portfolio__date-bottom {
+.portfolio__date_bottom {
     height: 25px;
-    border-radius: 3px;
-    background-color: #6dc5dd;
-    color: #FFF;
     font-size: 17px;
     line-height: 28px;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .portfolio__item-title {
