@@ -1,4 +1,4 @@
-.button .services__item-img, .button .right-arrow, .button .portfolio__date-top, .button .portfolio__item-review-img-bg, .services__item-img, .right-arrow, .portfolio__item-review-img-bg, .portfolio__date-top, .footer__info-social-icon-item-bg {
+.services__item-img, .right-arrow, .portfolio__item-review-img-bg, .portfolio__date-top, .footer__info-social-icon-item-bg {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,7 +8,6 @@
   width: 1170px;
   margin: 0 auto;
   font-family: 'Source Sans Pro', sans-serif;
-  border: 1px solid black;
 }
 
 .header {
@@ -22,6 +21,22 @@
   margin-left: 29px;
 }
 
+@media screen and (max-width: 375px) {
+  .page {
+    width: 375px;
+  }
+
+  .header {
+    width: 375px;
+  }
+  .header__logo {
+    margin-left: 10px;
+  }
+
+  .nav {
+    display: none;
+  }
+}
 .nav {
   width: max-content;
 }
@@ -49,7 +64,6 @@
 }
 
 .description {
-  width: 100%;
   background: linear-gradient(#e7e7e7, #ffffff);
   display: flex;
   justify-content: flex-start;
@@ -95,285 +109,6 @@
   border: none;
   text-transform: uppercase;
   margin-top: 36px;
-  /* services */
-  /* team */
-  /* advertising */
-  /* footer */
-}
-.button .services {
-  display: flex;
-  justify-content: space-between;
-  box-sizing: border-box;
-  height: 270px;
-  background-color: #6dc5dd;
-  padding-top: 61px;
-  padding-right: 44px;
-}
-.button .services__item {
-  display: flex;
-}
-.button .services__item-img {
-  width: 63px;
-  height: 63px;
-  border-radius: 50%;
-  background: #FFF;
-  margin-left: 30px;
-  margin-right: 27px;
-}
-.button .services__item-content {
-  color: #FFF;
-}
-.button .services__item-title {
-  font-size: 20px;
-  margin-bottom: 30px;
-  font-weight: 700;
-}
-.button .services__item-text {
-  width: 235px;
-  height: 62px;
-  margin-bottom: 27px;
-}
-.button .services__item-link {
-  display: flex;
-  align-items: center;
-  font-weight: 700;
-}
-.button .right-arrow {
-  background: #FFF;
-  width: 13px;
-  height: 13px;
-  border-radius: 50%;
-  margin-left: 11px;
-}
-.button .right-arrow__img {
-  width: 10px;
-}
-.button .team {
-  display: flex;
-  box-sizing: border-box;
-  padding-top: 60px;
-  height: 530px;
-}
-.button .team__item {
-  display: flex;
-  margin: 0 33px 60px 30px;
-}
-.button .team__item-photo {
-  margin-right: 30px;
-}
-.button .team__item-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.button .team__item-title {
-  color: #003d48;
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 23px;
-}
-.button .team__item-text {
-  width: 519px;
-  height: 86px;
-  color: #8c9193;
-  font-size: 15px;
-  line-height: 22px;
-}
-.button .button_small {
-  font-size: 12px;
-  margin-top: 24px;
-  width: 70px;
-  height: 38px;
-  padding: 14px 17px;
-}
-.button .team__achievements {
-  box-sizing: border-box;
-  width: 340px;
-  height: 431px;
-}
-.button .team__achievements-toggle {
-  display: flex;
-  align-items: flex-end;
-}
-.button .team__achievements-toggle-item {
-  width: 100px;
-  height: 42px;
-  border: 2px solid #ececec;
-  background: #FFF;
-  color: #787878;
-  font-size: 16px;
-  font-weight: 700;
-  border-radius: 6px;
-  line-height: 42px;
-  text-align: center;
-}
-.button .team__achievements-toggle-item_selected {
-  color: #f77462;
-  background: #003d48;
-  margin-right: 10px;
-  border-color: #003d48;
-  border-radius: 6px 6px 0 0;
-}
-.button .team__achievements-description {
-  height: 154px;
-  width: 340px;
-  background: #003d48;
-  box-sizing: border-box;
-  padding: 20px 35px 28px 34px;
-}
-.button .team__achievements-title {
-  color: #6dc5dd;
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 16px;
-}
-.button .team__achievements-text {
-  width: 271px;
-  color: #FFF;
-  font-size: 15px;
-  line-height: 24px;
-}
-.button .team__achievements-list {
-  height: 240px;
-  border: 2px solid #ececec;
-  border-radius: 0 0 6px 6px;
-  box-sizing: border-box;
-  padding: 40px 20px;
-}
-.button .team__achievements-list-item {
-  border-bottom: 2px solid #ececec;
-  padding: 8px 5px;
-}
-.button .team__achievements-list-item-img {
-  width: 14px;
-}
-.button .advertising {
-  box-sizing: border-box;
-  height: 206px;
-  background: #f77462;
-  text-align: center;
-  padding-top: 60px;
-  color: #ffffff;
-}
-.button .advertising__title {
-  font-size: 32px;
-  line-height: 29px;
-  font-weight: 700;
-  margin-bottom: 22px;
-}
-.button .advertising__text {
-  width: 653px;
-  margin: 0 auto;
-  font-size: 18px;
-  line-height: 29px;
-  font-weight: 300;
-}
-.button .portfolio {
-  min-height: 648px;
-  box-sizing: border-box;
-  padding: 60px 30px 0 30px;
-}
-.button .portfolio__title {
-  color: #003d48;
-  text-align: center;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 29px;
-}
-.button .portfolio__sub-title {
-  margin: 30px auto 40px;
-  color: #6dc5dd;
-  font-size: 22px;
-  line-height: 29px;
-  text-align: center;
-  font-weight: 300;
-  padding: 16px 0 14px 0;
-  border-top: 1px solid #ececec;
-  border-bottom: 1px solid #ececec;
-}
-.button .portfolio__content {
-  display: flex;
-}
-.button .portfolio__item {
-  display: flex;
-  margin-bottom: 56px;
-}
-.button .portfolio__date {
-  width: 70px;
-  margin-right: 29px;
-}
-.button .portfolio__date-top {
-  height: 42px;
-  border-radius: 3px;
-  background-color: #6dc5dd;
-  color: #FFF;
-  font-size: 35px;
-  line-height: 24px;
-  font-weight: 700;
-}
-.button .portfolio__date-line {
-  height: 1px;
-}
-.button .portfolio__date_bottom {
-  height: 25px;
-  font-size: 17px;
-  line-height: 28px;
-}
-.button .portfolio__item-title {
-  color: #003d48;
-  font-size: 16px;
-  font-weight: 700;
-}
-.button .portfolio__item-comments {
-  color: #f77462;
-  font-size: 14px;
-  font-weight: 300;
-  margin: 8px 0 11px;
-}
-.button .portfolio__item-text {
-  width: 395px;
-  min-height: 38px;
-  font-size: 15px;
-  line-height: 24px;
-  color: #787878;
-}
-.button .portfolio__item-text-arrow {
-  width: 13px;
-  height: 13px;
-  border-radius: 50%;
-}
-.button .portfolio__items-reviews {
-  margin-left: 50px;
-}
-.button .portfolio__item-review {
-  display: flex;
-  background: #ececec;
-  box-sizing: border-box;
-  height: 173px;
-  width: 540px;
-  padding: 34px 30px 33px;
-  margin-bottom: 40px;
-}
-.button .portfolio__item-review-text {
-  width: 333px;
-  height: 62px;
-  color: #8c9193;
-  font-size: 15px;
-  line-height: 24px;
-}
-.button .portfolio__item-reviewer-name {
-  color: #f77462;
-  font-size: 16px;
-  line-height: 29px;
-  font-weight: 700;
-  margin-top: 19px;
-}
-.button .portfolio__item-review-img-bg {
-  height: 106px;
-  width: 106px;
-  border-radius: 50%;
-  background: #FFF;
-  margin-left: 41px;
 }
 .button_small {
   font-size: 12px;
@@ -383,11 +118,36 @@
   padding: 14px 17px;
 }
 
+@media screen and (max-width: 375px) {
+  .description {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .description__image {
+    margin-left: -40px;
+  }
+  .description__content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .description__content-text {
+    width: 375px;
+    margin-top: 30px;
+  }
+
+  .button {
+    margin: 36px auto 20px;
+  }
+}
 .services {
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
-  height: 270px;
+  min-height: 270px;
   background-color: #6dc5dd;
   padding-top: 61px;
   padding-right: 44px;
@@ -422,6 +182,29 @@
   font-weight: 700;
 }
 
+@media screen and (max-width: 375px) {
+  .services {
+    margin: 0;
+    padding: 0;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 270px;
+  }
+  .services__item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  .services__item-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+  }
+}
 .right-arrow {
   background: #ffffff;
   width: 13px;
@@ -437,7 +220,7 @@
   display: flex;
   box-sizing: border-box;
   padding-top: 60px;
-  height: 530px;
+  min-height: 530px;
 }
 .team__item {
   display: flex;
@@ -526,9 +309,30 @@
   width: 14px;
 }
 
+@media screen and (max-width: 375px) {
+  .team {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .team__item {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 10px;
+  }
+  .team__item-text {
+    width: 375px;
+  }
+  .team__achievements {
+    width: 350px;
+    margin: 0 auto;
+  }
+}
 .advertising {
   box-sizing: border-box;
-  height: 206px;
+  min-height: 206px;
   background: #f77462;
   text-align: center;
   padding-top: 60px;
@@ -548,6 +352,20 @@
   font-weight: 300;
 }
 
+@media screen and (max-width: 375px) {
+  .advertising {
+    width: 375px;
+    margin-top: 20px;
+    padding-top: 30px;
+  }
+  .advertising__text {
+    width: 375px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 300;
+  }
+}
 .portfolio {
   min-height: 648px;
   box-sizing: border-box;
@@ -656,6 +474,39 @@
   line-height: 28px;
 }
 
+@media screen and (max-width: 375px) {
+  .portfolio {
+    width: 375px;
+    padding: 0;
+  }
+  .portfolio__title {
+    margin-top: 30px;
+  }
+  .portfolio__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio__items-reviews {
+    margin: 0;
+  }
+  .portfolio__item-review {
+    width: 375px;
+  }
+  .portfolio__item-review-img-bg {
+    display: none;
+  }
+  .portfolio__item-description {
+    width: 365px;
+    padding: 10px;
+    margin: 0auto;
+  }
+  .portfolio__item-text {
+    width: 365px;
+  }
+  .portfolio__date {
+    display: none;
+  }
+}
 .footer {
   min-height: 324px;
   box-sizing: border-box;
@@ -700,4 +551,22 @@
   background: #ffffff;
   border-radius: 50%;
   margin-right: 10px;
+}
+
+@media screen and (max-width: 375px) {
+  .footer {
+    width: 375px;
+    min-height: auto;
+  }
+  .footer__items {
+    display: none;
+  }
+  .footer__info {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .footer__info-text {
+    margin: 20px 0;
+  }
 }
