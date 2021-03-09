@@ -10,6 +10,11 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+@media screen and (max-width: 375px) {
+  .page {
+    width: 375px;
+  }
+}
 .header {
   height: 99px;
   display: flex;
@@ -22,19 +27,11 @@
 }
 
 @media screen and (max-width: 375px) {
-  .page {
-    width: 375px;
-  }
-
   .header {
     width: 375px;
   }
   .header__logo {
     margin-left: 10px;
-  }
-
-  .nav {
-    display: none;
   }
 }
 .nav {
@@ -63,6 +60,11 @@
   display: none;
 }
 
+@media screen and (max-width: 375px) {
+  .nav {
+    display: none;
+  }
+}
 .description {
   background: linear-gradient(#e7e7e7, #ffffff);
   display: flex;
@@ -99,25 +101,6 @@
   margin-top: 39px;
 }
 
-.button {
-  width: 129px;
-  height: 44px;
-  padding: 16px 22px 16px 23px;
-  border-radius: 3px;
-  background-color: #f77462;
-  color: #ffffff;
-  border: none;
-  text-transform: uppercase;
-  margin-top: 36px;
-}
-.button_small {
-  font-size: 12px;
-  margin-top: 24px;
-  width: 70px;
-  height: 38px;
-  padding: 14px 17px;
-}
-
 @media screen and (max-width: 375px) {
   .description {
     width: 375px;
@@ -138,7 +121,27 @@
     width: 375px;
     margin-top: 30px;
   }
+}
+.button {
+  width: 129px;
+  height: 44px;
+  padding: 16px 22px 16px 23px;
+  border-radius: 3px;
+  background-color: #f77462;
+  color: #ffffff;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 36px;
+}
+.button_small {
+  font-size: 12px;
+  margin-top: 24px;
+  width: 70px;
+  height: 38px;
+  padding: 14px 17px;
+}
 
+@media screen and (max-width: 375px) {
   .button {
     margin: 36px auto 20px;
   }
@@ -311,7 +314,8 @@
 
 @media screen and (max-width: 375px) {
   .team {
-    width: 375px;
+    width: 355px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -320,10 +324,11 @@
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 10px;
   }
   .team__item-text {
-    width: 375px;
+    text-align: justify;
+    width: 355px;
+    margin-bottom: 10px;
   }
   .team__achievements {
     width: 350px;
@@ -476,8 +481,8 @@
 
 @media screen and (max-width: 375px) {
   .portfolio {
-    width: 375px;
-    padding: 0;
+    width: 355px;
+    padding: 0 10px;
   }
   .portfolio__title {
     margin-top: 30px;
@@ -490,18 +495,19 @@
     margin: 0;
   }
   .portfolio__item-review {
-    width: 375px;
+    width: 365px;
+    padding-left: 20px;
   }
   .portfolio__item-review-img-bg {
     display: none;
   }
   .portfolio__item-description {
     width: 365px;
-    padding: 10px;
-    margin: 0auto;
+    margin: 0 auto;
   }
   .portfolio__item-text {
-    width: 365px;
+    width: 355px;
+    padding: 0 5px;
   }
   .portfolio__date {
     display: none;
